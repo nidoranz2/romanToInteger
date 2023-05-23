@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 //Creating a function named value that accepts a Roman Numeral Character and returns the equivalent value of the Roman Numeral
+//ローマ数字に対応している数字を返すユーザー定義関数
 int value(char c)
 {
     switch(c){
